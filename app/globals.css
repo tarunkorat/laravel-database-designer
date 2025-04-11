@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 346 77% 49%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 222 47% 15%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 222 47% 15%;
+    --muted-foreground: 215 20% 75%;
+
+    --accent: 222 47% 15%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 47% 20%;
+    --input: 222 47% 20%;
+    --ring: 346 77% 49%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Improve text readability */
+  .text-gray-400 {
+    @apply text-gray-300;
+  }
+
+  /* Ensure form labels are visible */
+  label {
+    @apply text-gray-200;
+  }
+
+  /* Make card descriptions more readable */
+  .card-description {
+    @apply text-gray-300 !important;
+  }
+
+  /* Improve tab text contrast */
+  [role="tab"] {
+    @apply text-gray-200;
+  }
+
+  /* Ensure input text is visible */
+  input,
+  select,
+  textarea {
+    @apply text-gray-200;
+  }
+
+  /* Improve placeholder text visibility */
+  ::placeholder {
+    @apply text-gray-400;
+  }
+}
