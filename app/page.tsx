@@ -69,7 +69,7 @@ export default function LandingPage() {
             <div className="md:w-1/2">
               <div className="rounded-lg border border-[#1e2a3b] overflow-hidden shadow-2xl">
                 <img
-                  src="/placeholder.svg?height=600&width=800"
+                  src="https://img.freepik.com/free-photo/dedicated-businessman-working-late-laptop-dark-office_169016-54965.jpg?t=st=1744460895~exp=1744464495~hmac=39d473fb3908edb91bf6970c4ae4bac626dffdf364849c2d7afa87521a9e5eed&w=996"
                   alt="Laravel Migration Designer Interface"
                   className="w-full h-auto"
                 />
@@ -278,7 +278,9 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-[#131e2d] p-6 rounded-lg border border-[#1e2a3b]">
               <div className="flex items-center mb-4">
-                <div className="h-12 w-12 rounded-full bg-[#1e2a3b] mr-4"></div>
+                <div className="h-12 w-12 rounded-full bg-[#1e2a3b] mr-4">
+                  <img src="https://img.freepik.com/free-psd/3d-illustration-with-online-avatar_23-2151303097.jpg?t=st=1744460968~exp=1744464568~hmac=68ee864e12966df53832e2b2538e210f383d527ef76db1171e5e7b6b30860b08&w=740" alt="" className="rounded" />
+                </div>
                 <div>
                   <h4 className="font-semibold">Sarah Johnson</h4>
                   <p className="text-gray-400 text-sm">Senior Laravel Developer</p>
@@ -292,7 +294,9 @@ export default function LandingPage() {
 
             <div className="bg-[#131e2d] p-6 rounded-lg border border-[#1e2a3b]">
               <div className="flex items-center mb-4">
-                <div className="h-12 w-12 rounded-full bg-[#1e2a3b] mr-4"></div>
+                <div className="h-12 w-12 rounded-full bg-[#1e2a3b] mr-4">
+                  <img src="https://img.freepik.com/free-psd/3d-illustration-with-online-avatar_23-2151303097.jpg?t=st=1744460968~exp=1744464568~hmac=68ee864e12966df53832e2b2538e210f383d527ef76db1171e5e7b6b30860b08&w=740" alt="" className="rounded" />
+                </div>
                 <div>
                   <h4 className="font-semibold">Michael Chen</h4>
                   <p className="text-gray-400 text-sm">Full Stack Developer</p>
@@ -306,7 +310,9 @@ export default function LandingPage() {
 
             <div className="bg-[#131e2d] p-6 rounded-lg border border-[#1e2a3b]">
               <div className="flex items-center mb-4">
-                <div className="h-12 w-12 rounded-full bg-[#1e2a3b] mr-4"></div>
+                <div className="h-12 w-12 rounded-full bg-[#1e2a3b] mr-4">
+                  <img src="https://img.freepik.com/free-psd/3d-illustration-with-online-avatar_23-2151303097.jpg?t=st=1744460968~exp=1744464568~hmac=68ee864e12966df53832e2b2538e210f383d527ef76db1171e5e7b6b30860b08&w=740" alt="" className="rounded" />
+                </div>
                 <div>
                   <h4 className="font-semibold">Emily Rodriguez</h4>
                   <p className="text-gray-400 text-sm">Laravel Consultant</p>
@@ -367,17 +373,17 @@ export default function LandingPage() {
             </div>
 
             <div className="flex gap-4">
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://github.com/tarunkorat/laravel-database-designer" className="text-gray-300 hover:text-white">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="https://github.com/tarunkorat/laravel-database-designer" className="text-gray-300 hover:text-white">
                 <Twitter className="h-5 w-5" />
               </a>
             </div>
           </div>
 
           <div className="mt-8 pt-8 border-t border-[#1e2a3b] text-center text-gray-400 text-sm">
-            <p>© {new Date().getFullYear()} Migrator Pro. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Migrator Pro. All rights reserved. Design & Developed by Tarun Korat</p>
           </div>
         </div>
       </footer>

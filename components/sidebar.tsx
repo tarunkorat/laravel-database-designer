@@ -81,35 +81,6 @@ export function Sidebar() {
           <div className="text-xs text-gray-400">CURRENT PROJECT</div>
           <div className="text-sm font-medium text-gray-200 truncate">{currentProject?.name}</div>
         </div>
-        <ul className="space-y-2">
-          <li>
-            <Link
-              href="/settings"
-              className={`flex items-center ${isActive("/settings") ? "text-white bg-[#131e2d]" : "text-gray-300 hover:text-white hover:bg-[#131e2d]"} px-4 py-2`}
-            >
-              <Settings className="h-5 w-5 md:mr-3" />
-              <span className="hidden md:block">Settings</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/documentation"
-              className={`flex items-center ${isActive("/documentation") ? "text-white bg-[#131e2d]" : "text-gray-300 hover:text-white hover:bg-[#131e2d]"} px-4 py-2`}
-            >
-              <BookOpen className="h-5 w-5 md:mr-3" />
-              <span className="hidden md:block">Documentation</span>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/help"
-              className={`flex items-center ${isActive("/help") ? "text-white bg-[#131e2d]" : "text-gray-300 hover:text-white hover:bg-[#131e2d]"} px-4 py-2`}
-            >
-              <HelpCircle className="h-5 w-5 md:mr-3" />
-              <span className="hidden md:block">Help</span>
-            </Link>
-          </li>
-        </ul>
       </div>
     </div>
   )
