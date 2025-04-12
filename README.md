@@ -5,7 +5,7 @@
 A powerful, open-source visual database designer built specifically for Laravel. Instantly design E-R diagrams, define relationships, and generate fully functional Laravel migrations – no manual coding required.
 
 # **Live Preview**
-https://v0.dev/chat/laravel-ui-designer-VbGh14WE6yp
+[https://v0.dev/chat/laravel-ui-designer-VbGh14WE6yp](https://laravel-database-designer.vercel.app/)
 
 ## 🚀 Features
 
